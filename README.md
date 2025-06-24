@@ -28,12 +28,14 @@ C --> D[Worker consome da fila]
 D --> E[Gera ficha de confirmação]
 E --> F[Envia e-mail com ficha em anexo]
 
+---
+
 ## ⚙️ Tecnologias Utilizadas
 
 - ASP.NET Core 8
 - Clean Architecture
 - CQRS + MediatR
-- SQL Server + Entity Framework Core
+- SQL Server + Entity Framework Core 8
 - Dapper
 - RabbitMQ
 - Report View ( geração do relatório em PDF)
