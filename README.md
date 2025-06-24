@@ -27,5 +27,15 @@ Este projeto implementa um fluxo assíncrono para submissão e processamento de 
 5. 🧾 Worker gera a ficha de confirmação (PDF)
 6. ✉️ Ficha é enviada por e-mail ao candidato
 
+---
 
+## ⚙️ Tecnologias Utilizadas
 
+- ASP.NET Core 8
+- Clean Architecture
+- CQRS + MediatR
+- SQL Server + Entity Framework Core 8
+- Dapper
+- RabbitMQ
+- Report View
+- BackgroundService
