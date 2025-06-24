@@ -24,7 +24,7 @@ Este projeto implementa um fluxo assíncrono para submissão e processamento de 
 2. 💾 API salva os dados no banco de dados
 3. 📬 API publica a mensagem na fila RabbitMQ
 4. 🧑‍🔧 Worker consome a mensagem da fila
-5. 🧾 Worker gera a ficha de confirmação (PDF ou HTML)
+5. 🧾 Worker gera a ficha de confirmação (PDF)
 6. ✉️ Ficha é enviada por e-mail ao candidato
 
 
