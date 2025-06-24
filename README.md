@@ -34,7 +34,8 @@ Este projeto implementa um fluxo assíncrono para submissão e processamento de 
 - ASP.NET Core 8
 - Clean Architecture
 - CQRS + MediatR
-- SQL Server + Entity Framework Core 8
+- SQL Server
+- Entity Framework Core 8
 - Dapper
 - RabbitMQ
 - Report View
