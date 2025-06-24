@@ -1,6 +1,6 @@
 # 📬 Sistema de Candidaturas com RabbitMQ, .NET e Envio de Ficha por E-mail
 
-Este projeto implementa um fluxo assíncrono para submissão e processamento de candidaturas, utilizando **ASP.NET Core 8**, **RabbitMQ**, **Clean Architecture** e o Report View para envio automático de e-mail com ficha de confirmação.
+Este projeto implementa um fluxo assíncrono para submissão e processamento de candidaturas, utilizando **ASP.NET Core 8**, **RabbitMQ**, **Clean Architecture** e o **Report View** para envio automático de e-mail com ficha de confirmação.
 
 ---
 
@@ -13,7 +13,7 @@ Este projeto implementa um fluxo assíncrono para submissão e processamento de 
 3. A API publica a candidatura em uma fila do RabbitMQ.
 4. Um serviço consumidor:
    - Processa os dados da fila,
-   - Gera uma ficha de confirmação (HTML ou PDF),
+   - Gera uma ficha de confirmação (PDF),
    - Envia a ficha por e-mail ao candidato.
 
 ---
