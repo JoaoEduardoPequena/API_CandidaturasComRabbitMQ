@@ -20,12 +20,12 @@ Este projeto implementa um fluxo assíncrono para submissão e processamento de 
 
 ## 🔄 Fluxo de Funcionamento
 
-```mermaid
-graph TD
-A[Usuário envia candidatura via POST] --> B[API salva no banco]
-B --> C[API publica na fila RabbitMQ]
-C --> D[Worker consome da fila]
-D --> E[Gera ficha de confirmação]
-E --> F[Envia e-mail com ficha em anexo]
+1. 🧑‍💼 Usuário envia uma candidatura via `POST /api/candidaturas`
+2. 💾 API salva os dados no banco de dados
+3. 📬 API publica a mensagem na fila RabbitMQ
+4. 🧑‍🔧 Worker consome a mensagem da fila
+5. 🧾 Worker gera a ficha de confirmação (PDF ou HTML)
+6. ✉️ Ficha é enviada por e-mail ao candidato
+
 
 
